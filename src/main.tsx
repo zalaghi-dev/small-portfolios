@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Layout from "./Layout";
 import Clock from "./apps/clocks";
@@ -14,7 +14,7 @@ import Crypto from "./apps/crypto/Crypto";
 import TicTacToe from "./apps/tictactoe/TicTacToe";
 import Gallery from "./apps/gallery/Gallery";
 //< ROUTES CONFIGURATION >
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,

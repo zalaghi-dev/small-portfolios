@@ -1,5 +1,7 @@
 # Small Portfolios
 
+## [Preview / Demo](https://henryallen-dev.github.io/small-portfolios/)
+
 A personal portfolio showcasing my work, built with **Vite**, **React**, **TypeScript**, **Bun**, and **Tailwind CSS**.
 
 Feel free to copy or use any of the code in this repository!
