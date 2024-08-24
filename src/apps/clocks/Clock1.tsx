@@ -9,7 +9,7 @@ const Clock1 = () => {
   return (
     <div className="flex flex-col gap-3 justify-center items-center">
       <div className="text-6xl text-white font-bold font-mono">
-        {`${numZero(time.getHours())}:${numZero(time.getMinutes())} `}
+        {`${numZero(time.getHours())}:${numZero(time.getMinutes())}:`}
         <span className="text-red-600 font-light">
           {numZero(time.getSeconds())}
         </span>

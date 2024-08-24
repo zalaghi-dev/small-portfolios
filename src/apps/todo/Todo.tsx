@@ -101,7 +101,8 @@ const Todo = () => {
         {!onEditState ? (
           <button
             type="submit"
-            className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-green-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-3 -translate-y-1/2"
+            disabled={inputText.length === 0}
+            className="text-white bg-gradient-to-br disabled:opacity-40 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-green-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-3 -translate-y-1/2"
           >
             <BiPlus size="20px" />
           </button>
@@ -111,7 +112,8 @@ const Todo = () => {
             onClick={() => {
               handleSaveEdit();
             }}
-            className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-green-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-3 -translate-y-1/2"
+            disabled={inputText.length === 0}
+            className="text-white bg-gradient-to-br disabled:opacity-40 from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-green-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-3 -translate-y-1/2"
           >
             <BiCheck size="20px" />
           </button>
@@ -130,7 +132,7 @@ const Todo = () => {
             <button
               type="button"
               onClick={() => handleDoneToggle(id)}
-              className="text-white bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-purple-800 font-medium rounded-lg text-sm p-0.5 text-center absolute top-1/2 left-3 -translate-y-1/2"
+              className="text-white disabled:opacity-40 bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-purple-800 font-medium rounded-lg text-sm p-0.5 text-center absolute top-1/2 left-3 -translate-y-1/2"
             >
               {isDone ? (
                 <BiCheck className="bg-neutral-900 rounded-md" size="20px" />
@@ -164,7 +166,8 @@ const Todo = () => {
                 onClick={() => {
                   handleSaveEdit();
                 }}
-                className="text-white bg-gradient-to-br from-yellow-500 to-orange-700 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-yellow-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-12 -translate-y-1/2"
+                disabled={inputText.length === 0}
+                className="text-white disabled:opacity-40 bg-gradient-to-br from-yellow-500 to-orange-700 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none  focus:ring-yellow-800 font-medium rounded-lg text-sm p-1 text-center absolute top-1/2 right-12 -translate-y-1/2"
               >
                 <BiCheck size="20px" />
               </button>
