@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://henryallen-dev.github.io/small-portfolios",
+  "homepage": "https://amir-zalaghi.github.io/small-portfolios",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
