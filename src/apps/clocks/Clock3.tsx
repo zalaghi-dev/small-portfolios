@@ -24,7 +24,7 @@ const Clock3 = () => {
               </span>
             </div>
             <span className="text-gray-700 text-lg font-light">
-              Henry Allen
+              Amir Zalaghi
             </span>
           </div>
         </div>
