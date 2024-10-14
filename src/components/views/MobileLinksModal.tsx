@@ -13,7 +13,7 @@ const MobileLinksModal = () => {
         <Logo
           name={
             <>
-              HenryAllen <span className="text-base">(Portfolio)</span>
+              AmirZalaghi <span className="text-base">(Portfolio)</span>
             </>
           }
         />{" "}
