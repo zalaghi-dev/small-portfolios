@@ -1,6 +1,6 @@
 # Small Portfolios
 
-## [Preview / Demo](https://henryallen-dev.github.io/small-portfolios/)
+## [Preview / Demo](https://zalaghi-dev.github.io/small-portfolios/)
 
 A personal portfolio showcasing my work, built with **Vite**, **React**, **TypeScript**, **Bun**, and **Tailwind CSS**.
 
